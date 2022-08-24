@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>khamsat</title>
+    <script src="fontawesome.js"></script>
+    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="fontawesome.css" />
+  </head>
+
+  <body class="text-decoration-none">
+    <!-- navbar -->
+    <nav class="flexnav">
+      <!-- leftnav -->
+      <div class="leftnav">
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart-x"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.354 5.646a.5.5 0 1 0-.708.708L7.793 7.5 6.646 8.646a.5.5 0 1 0 .708.708L8.5 8.207l1.146 1.147a.5.5 0 0 0 .708-.708L9.207 7.5l1.147-1.146a.5.5 0 0 0-.708-.708L8.5 6.793 7.354 5.646z"
+            />
+            <path
+              d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+            />
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-envelope-check"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"
+            />
+            <path
+              d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"
+            />
+          </svg>
+        </a>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-bell-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+            />
+          </svg>
+        </a>
+      </div>
+      <!-- dash rightnav -->
+      <div class="rightnav">
+        <a href="#"><img src="logo-khamasat.png" alt="logo" /></a>
+
+        <a href="#">
+          <button>اضف خدمة</button>
+          <i class="fa-plus"></i>
+        </a>
+        <a href="#"
+          ><button>التصنيفات</button>
+          <i class="fa-cubes" aria-hidden="true"></i>
+        </a>
+        <a href="#"
+          ><button>المشتريات</button>
+          <i class="fa-cart-shopping" aria-hidden="true"></i>
+        </a>
+        <a href="#"
+          ><button>الطلبات الواردة</button>
+          <i class="fa-truck-loading"></i>
+        </a>
+      </div>
+    </nav>
+
+    <!-- h2 div -->
+    <div style="text-align: center; margin: 100px">
+      <h4>كافة الخدمات الإبداعية والاحترافية لتطوير وتنمية أعمالك</h4>
+    </div>
+    <!-- img section -->
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(img1.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(img2.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(img3.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(img4.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <!-- img section 2 -->
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(5.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+
+      <div class="divsecimg" style="background-image: url(6.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(7.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(8.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+
+    <!-- section 3 + div -->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section 4 + div -->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section 5  +div-->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section 5 +div -->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section 6  -->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section 7 -->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section 8  -->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section9 -->
+    <section>
+      <div class="sec3">
+        <a href="#"><button>عرض الجميع</button></a>
+        <a href="#">
+          <p>خدمات اعمال</p>
+        </a>
+      </div>
+    </section>
+    <section class="secimg">
+      <div class="divsecimg" style="background-image: url(9.jpg)">
+        <a href="#" class="divseclink"> <span class="b">تدريب عن بعد</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(10.jpg)">
+        <a href="#" class="divseclink"> <span>تسويق الكتروني</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(11.jpg)">
+        <a href="#" class="divseclink"> <span>برمجة و تطوير</span></a>
+      </div>
+      <div class="divsecimg" style="background-image: url(12.jpg)">
+        <a href="#" class="divseclink"> <span>اعمال</span></a>
+      </div>
+    </section>
+    <div class="para">
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+      <div class="par">
+        <a href="#"> <p>بناء خطط وأدلة نظام الامتياز التجارى</p></a>
+        <a href="#">
+          <p><small> أعمال / استشارات أعمال </small></p></a
+        >
+        <a href="#"> <p>تبدأ من $5.00</p></a>
+      </div>
+    </div>
+    <!-- section 10 -->
+    <section>
+      <div class="lastsec">
+        <div>
+          <a href="#">
+            <h5>موقع خمسات</h5>
+          </a>
+          <ul>
+            <li><a href="#"> حول خمسات</a></li>
+            <li><a href="#">كيف يعمل الموقع</a></li>
+            <li><a href="#">الأسئلة الشائعة</a></li>
+            <li><a href="#">اعرف كيف نضمن حقوقك</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#">
+            <h5>مدونة خمسات</h5>
+          </a>
+          <ul>
+            <li><a href="#"> لا غنى عنها لأصحاب قنوات</a></li>
+            <li>
+              <a href="#">الربح من الإنترنت: الحقيقة التي لن يخبرك بها أحد</a>
+            </li>
+
+            <li>
+              <a href="#">ما أهمية تصميم فيديو إعلاني لمشروعك التجاري؟</a>
+            </li>
+
+            <li><a href="#">9 خدمات لا غنى عنها لأصحاب قنوات اليوتيوب</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="#">
+            <h5>مجتمع خمسات</h5>
+          </a>
+          <ul>
+            <li><a href="#"> نماذج أعمال قمت بتنفيذها</a></li>
+            <li><a href="#">طلبات الخدمات غير الموجودة</a></li>
+            <li><a href="#">تجارب وقصص المستخدمين</a></li>
+            <li><a href="#">أمور عامة حول خمسات</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="followus">
+      <div>
+        <h5>احصل علي مساعدة</h5>
+        <ul>
+          <li><a href="#"> مركز المساعدة</a></li>
+          <li><a href="#">تحدث معنا </a></li>
+        </ul>
+      </div>
+      <div class="visa">
+        <h5>وسائل الدفع</h5>
+        <img src="visa.jpg" alt="visa" />
+      </div>
+      <div>
+        <h5>تابع خمسات</h5>
+        <div class="social">
+          <img src="facebook.png" alt="face" /><img
+            src="twiter.jpg"
+            alt="twiter"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="fot">
+      <div>
+        <p>© 2022 Hsoub. All rights reserved.</p>
+      </div>
+      <div>
+        <a href="#">شروط الاستخدام</a>
+        <a href="#"> بيان الخصوصية</a>
+        <a href="#"> المستويات</a>
+        <a href="#"> التسويق بالعمولة</a>
+      </div>
+    </footer>
+    <!-- footer 2  -->
+    <footer class="fot2">
+      <div><img src="hsoub_logo.png" alt="img" width="200px" /></div>
+      <div class="fot2link">
+        <a href="#"
+          >انا
+          <p>أداة واحدة لإدارة مشاريعك وفريقك</p>
+        </a>
+        <a href="#"
+          >مستقل
+          <p>أكبر منصة عمل حر في العالم العربي</p>
+        </a>
+        <a href="#"
+          >خمسات
+          <p>سوق بيع وشراء الخدمات المصغرة</p>
+        </a>
+        <a href="#"
+          >بيكاليكا
+          <p>متجر القوالب والمنتجات الرقمية</p>
+        </a>
+        <a href="#"
+          >بعيد
+          <p>موقع توظيف الخبراء عن بعد</p>
+        </a>
+        <a href="#"
+          >زيتون
+          <p>برنامج خدمة العملاء الأكثر بساط</p>
+        </a>
+      </div>
+    </footer>
+    <div class="fot2link2">
+      <a href="#"
+        >أكاديمية حسوب
+        <p>دورات احترافية لتطوير مستقبلك</p>
+      </a>
+      <a href="#"
+        >موسوعة حسوب
+        <p>المرجع الشامل للمطورين العرب</p>
+      </a>
+      <a href="#"
+        >حسوب I/O
+        <p>مجتمع للنقاش الهادف والموضوعي</p>
+      </a>
+    </div>
+  </body>
+</html>

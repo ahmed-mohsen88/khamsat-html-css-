@@ -1,0 +1,276 @@
+span {
+  color: white;
+}
+body a {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+/* nav */
+.flexnav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: #444444;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+.flexnav img {
+  width: 150px;
+  height: fit-content;
+}
+
+/* right nav */
+.rightnav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 100px;
+  height: 100%;
+}
+.rightnav a {
+  margin: 10px;
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+}
+.rightnav button {
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  color: aliceblue;
+  font-size: large;
+}
+.rightnav button:hover {
+  background-color: rgba(255, 255, 255, 0.469);
+  text-decoration: none;
+}
+
+.rightnav i {
+  padding: 10px;
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  color: aliceblue;
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+.rightnav span {
+  padding: 10px;
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  color: aliceblue;
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+/* left nav */
+.leftnav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  height: 100%;
+}
+.leftnav a {
+  margin: 20px;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+svg {
+  width: 100%;
+  color: aliceblue;
+  height: 100%;
+  margin-left: 20px;
+}
+.leftnav svg:hover {
+  background-color: rgba(255, 255, 255, 0.469);
+}
+.leftnav img {
+  width: 50px;
+  height: 50px;
+}
+
+/* .leftnav i {
+  padding: 10px;
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  color: aliceblue;
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+.leftnav i:hover {
+  background-color: rgba(255, 255, 255, 0.469);
+} */
+
+/* section style */
+.secimg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.divsecimg {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.divseclink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+  font-weight: 500;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+/* sec3 */
+.sec3 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.sec3 a {
+  font-size: 30px;
+  color: black;
+}
+.sec3 button {
+  color: #76bf9f;
+  background-color: white;
+  font-size: 20px;
+  border: 1px solid #76bf9f;
+}
+.sec3 button:hover {
+  background-color: #76bf9f;
+  color: aliceblue;
+}
+.sec3 a:hover {
+  color: #76bf9f;
+}
+
+/* last sec */
+.lastsec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  direction: rtl;
+}
+
+.lastsec a {
+  color: black;
+  font-size: 20px;
+}
+.lastsec a:hover {
+  color: #76bf9f;
+}
+/* follow us section */
+.followus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  direction: rtl;
+}
+.social img {
+  width: 30px;
+}
+.visa img {
+  width: 200px;
+}
+.followus a {
+  color: black;
+  font-size: 20px;
+}
+.followus a:hover {
+  color: #76bf9f;
+}
+
+/* footer */
+.fot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f1f1f1;
+}
+.fot a {
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  width: 100%;
+}
+.fot a:hover {
+  color: #76bf9f;
+}
+/* footer 2 */
+.fot2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fot2 a {
+  margin: 20px;
+  text-align: right;
+  color: black;
+}
+.fot2link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fot2link2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: center;
+  margin-right: 200px;
+}
+.fot2link2 a {
+  text-align: right;
+  color: black;
+  margin: 20px;
+}
+/* paragraph styling */
+.para {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  direction: rtl;
+  flex-wrap: nowrap;
+}
+.par {
+  width: 90%;
+  margin-right: 25px;
+}
+.par a {
+  color: black;
+}
+.par a:hover {
+  color: #76bf9f;
+}
